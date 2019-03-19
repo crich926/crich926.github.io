@@ -1,4 +1,3 @@
-<rwdscript type="text/javascript">
 var model = {
 moduleStr: '',
 moduleId: '0',
@@ -371,4 +370,3 @@ $('#myModalContent').html('');
 $('#myModal').modal('hide');
 });
 });
-</rwdscript>
