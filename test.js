@@ -19,17 +19,6 @@ $('#browserLink').click(function () {
 $('#browserModal').modal('hide');
 window.open("https://secure.mbsbooks.com/employee/PortalApp/PortalHelp/browser_help.html", "_blank", "");
 //browserWindow.document.write('
-</rwdscript>
-<h1>Known Browser Issues with iCM</h1>
-<h2>EDGE</h2>
-<ol>
-    <li>Currently Edge has a known issue that causes inline onclick (ie. onclick="myFunction()") events that are embedded in a table to work on an inconsistent basis.  They will work at first and then when clicked they will just disappear.</li>
-</ol>
-<h2>INTERNET EXPLORER</h2>
-<ol>
-    <li>When opening a textarea on a page, Internet Explorer automatically caches the text inside for easy loading the next time it opens.  The first time the Global RWD CSS and Script/CSS buttons are clicked the correct data is shown.  However, if a change is made and saved then reopened, Internet Explorer will override our text with what it has cached, causing it to appear that your data was not saved correctly.</li>
-</ol>
-<rwdscript type="text/javascript">
 ');
 });
 $("#publish").click(function () {
