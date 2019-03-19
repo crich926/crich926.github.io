@@ -18,8 +18,7 @@ $('#browserModal').remove();
 $('#browserLink').click(function () {
 $('#browserModal').modal('hide');
 window.open("https://secure.mbsbooks.com/employee/PortalApp/PortalHelp/browser_help.html", "_blank", "");
-//browserWindow.document.write('
-');
+
 });
 $("#publish").click(function () {
 $('#publishModal').modal();
