@@ -112,10 +112,10 @@ if (all == 1) {
 //Item added to all show custom confirm, the user choose to remove module from all pages or just current one
 $.confirmWithOptions({
 'title': 'Delete Confirmation',
-'message': 'You are about to delete this item. <br>
+'message': 'You are about to delete this item.
 It cannot be restored at a later time! Continue?',
-'optionsHTML': '<input type="radio" id="one" name="delete" value="false"> Remove from Current page.<br>
-<input type="radio" id="removeall" name="delete" value="true"> Remove from All Pages.<br>
+'optionsHTML': '
+
 ',
 'buttons': {
 'Yes': {
@@ -157,7 +157,7 @@ else {
 //Module add to current page just removed form this page after confirmation
 $.confirm({
 'title': 'Delete Confirmation',
-'message': 'You are about to delete this item. <br>
+'message': 'You are about to delete this item.
 It cannot be restored at a later time! Continue?',
 'buttons': {
 'Yes': {
